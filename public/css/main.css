@@ -1,0 +1,55 @@
+body {
+    background: red;
+}
+
+.form-container {
+    width: 100%;
+    margin: auto
+}
+
+
+/* for tablet */
+
+@media only screen and (min-width: 576px) {
+    .form-container {
+        width: 500px;
+    }
+}
+
+
+/* landscape of tablet */
+
+@media only screen and (max-width: 769px) {}
+
+
+/* small laptop */
+
+@media only screen and (max-width: 992px) {}
+
+
+/* large laptop */
+
+@media only screen and (max-width: 1201px) {}
+
+
+/* 4k */
+
+@media only screen and (max-width: 1441px) {}
+
+.nav-item .active {
+    /* color: #f00 !important; */
+    font-weight: 900 !important;
+    text-decoration: underline !important;
+}
+
+.containersp {
+    padding-top: 4rem;
+}
+
+.diact {
+    color: #000 !important;
+}
+
+.disabled {
+    color: #ccc !important;
+}
